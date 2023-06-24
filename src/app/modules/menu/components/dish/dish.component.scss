@@ -1,0 +1,22 @@
+.dish {
+  width: 224px;
+  margin: 0 33px 36px 33px;
+
+  img {
+    width: 224px;
+    height: 275px;
+
+    border-radius: 2px;
+    margin-bottom: 8px;
+  }
+
+  p {
+    margin: none;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+  }
+}

@@ -1,0 +1,10 @@
+<div>
+  <h1>EL MANÁ: PLATOS</h1>
+  <div class="line"></div>
+
+  <div class="menu-container">
+    <div *ngFor="let dish of menu">
+      <app-dish [dish]="dish"></app-dish>
+    </div>
+  </div>
+</div>
